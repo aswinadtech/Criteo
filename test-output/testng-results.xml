@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="46" passed="46">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9548" started-at="2021-08-18T17:39:58Z" finished-at="2021-08-18T17:40:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9548" started-at="2021-08-18T17:39:58Z" finished-at="2021-08-18T17:40:08Z">
+      <class name="twc.Regression.TestCases.regressionTestCases">
+        <test-method status="PASS" signature="Verify_Criteo_SDK_config_app_Call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_config_app_Call" duration-ms="1337" started-at="2021-08-18T23:09:58Z" finished-at="2021-08-18T23:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_config_app_Call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call" duration-ms="263" started-at="2021-08-18T23:10:00Z" finished-at="2021-08-18T23:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_cpId_parameter()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Validate_Criteo_SDK_config_app_Call_cpId_parameter" duration-ms="729" started-at="2021-08-18T23:10:00Z" finished-at="2021-08-18T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_cpId_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_bundleId_parameter()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Validate_Criteo_SDK_config_app_Call_bundleId_parameter" duration-ms="347" started-at="2021-08-18T23:10:01Z" finished-at="2021-08-18T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_bundleId_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter" duration-ms="382" started-at="2021-08-18T23:10:01Z" finished-at="2021-08-18T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_homescreen_hourly_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_homescreen_hourly_gampad_call" duration-ms="164" started-at="2021-08-18T23:10:01Z" finished-at="2021-08-18T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_homescreen_hourly_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_homescreen_hourly_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_homescreen_hourly_gampad_call" duration-ms="139" started-at="2021-08-18T23:10:01Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_homescreen_hourly_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call" duration-ms="169" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call" duration-ms="152" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call" duration-ms="124" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call" duration-ms="320" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call" duration-ms="134" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call" duration-ms="138" started-at="2021-08-18T23:10:02Z" finished-at="2021-08-18T23:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call" duration-ms="127" started-at="2021-08-18T23:10:03Z" finished-at="2021-08-18T23:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call" duration-ms="144" started-at="2021-08-18T23:10:03Z" finished-at="2021-08-18T23:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call" duration-ms="119" started-at="2021-08-18T23:10:03Z" finished-at="2021-08-18T23:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call" duration-ms="124" started-at="2021-08-18T23:10:03Z" finished-at="2021-08-18T23:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call" duration-ms="433" started-at="2021-08-18T23:10:03Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call" duration-ms="125" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call" duration-ms="120" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call" duration-ms="140" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call" duration-ms="115" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call" duration-ms="118" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call" duration-ms="123" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call" duration-ms="119" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call" duration-ms="140" started-at="2021-08-18T23:10:04Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call" duration-ms="151" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call" duration-ms="182" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call" duration-ms="148" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call" duration-ms="162" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call" duration-ms="121" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call" duration-ms="120" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call" duration-ms="112" started-at="2021-08-18T23:10:05Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call" duration-ms="121" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call" duration-ms="125" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call" duration-ms="115" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call" duration-ms="168" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call" duration-ms="118" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call" duration-ms="123" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call" duration-ms="120" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call" duration-ms="274" started-at="2021-08-18T23:10:06Z" finished-at="2021-08-18T23:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call" duration-ms="257" started-at="2021-08-18T23:10:07Z" finished-at="2021-08-18T23:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call" duration-ms="285" started-at="2021-08-18T23:10:07Z" finished-at="2021-08-18T23:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call" duration-ms="140" started-at="2021-08-18T23:10:07Z" finished-at="2021-08-18T23:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call" duration-ms="145" started-at="2021-08-18T23:10:07Z" finished-at="2021-08-18T23:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call -->
+        <test-method status="PASS" signature="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call()[pri:0, instance:twc.Regression.TestCases.regressionTestCases@10b87ff6]" name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call" duration-ms="148" started-at="2021-08-18T23:10:08Z" finished-at="2021-08-18T23:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call -->
+      </class> <!-- twc.Regression.TestCases.regressionTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
