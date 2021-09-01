@@ -49,7 +49,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		logStep("****** Criteo SDK config/app call validation Started");
 
 		CharlesFunctions.createXMLFileForCharlesSessionFile();
-	Functions.verifyCriteo_config_app_Call( "Criteo");
+	Functions.verifyCriteo_config_app_Call("Criteo");
 
 	//Functions.verifyCriteo_config_app_Call("Criteo", false);
 	}
