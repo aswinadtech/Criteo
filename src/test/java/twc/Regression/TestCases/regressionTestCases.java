@@ -384,7 +384,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1, "size", true);
+	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "size", true);
 }
 @Test(priority = 218, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly1 Details call")
@@ -416,7 +416,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2, "size", true);
+	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "size", true);
 }
 @Test(priority = 224, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
@@ -448,7 +448,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2, "size", true);
+Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "size", true);
 }
 @Test(priority = 230, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
