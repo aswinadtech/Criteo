@@ -367,10 +367,103 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_det
 }
 
 
+		@Test(priority = 214, enabled = true)
+@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Hourly1 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call() throws Exception {
+
+	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly1 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly1 Details validation Started");
+    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "cpm", true);
+}
+
+@Test(priority = 216, enabled = true)
+@Description("Verify size parameter of Criteo SDK inapp v2 call with Hourly1 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call() throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call size parameter ====================");
+
+	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
+Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1, "size", true);
+}
+@Test(priority = 218, enabled = true)
+@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly1 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call()
+		throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
+	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly1 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly1 Details validation Started");
+	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "displayUrl",true);
+}
+
+										
+										
+		@Test(priority = 220, enabled = true)
+@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call() throws Exception {
+
+	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
+    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "cpm", true);
+}
+
+@Test(priority = 222, enabled = true)
+@Description("Verify size parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call() throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call size parameter ====================");
+
+	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
+Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2, "size", true);
+}
+@Test(priority = 224, enabled = true)
+@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call()
+		throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
+	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
+	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "displayUrl",true);
+}
+										
+										
+																				
+		@Test(priority = 226, enabled = true)
+@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call() throws Exception {
+
+	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
+    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "cpm", true);
+}
+
+@Test(priority = 228, enabled = true)
+@Description("Verify size parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call() throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call size parameter ====================");
+
+	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
+Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2, "size", true);
+}
+@Test(priority = 230, enabled = true)
+@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
+public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call()
+		throws Exception {
+	System.out.println("==============================================");
+	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
+	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
+	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
+	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "displayUrl",true);
+}
 
 
 	
-@Test(priority = 214, enabled = true)
+@Test(priority = 232, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with Map Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -382,7 +475,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampa
 }
 
 
-@Test(priority = 216, enabled = true)
+@Test(priority = 234, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with Map Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -394,7 +487,7 @@ Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(
 }
 
 
-@Test(priority = 218, enabled = true)
+@Test(priority = 236, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Map Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -407,7 +500,7 @@ Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(
 }
 
 
-	@Test(priority = 220, enabled = true)
+	@Test(priority = 238, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with Daily Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -420,7 +513,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gam
 Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Daily(10day)", "cpm",true);
 }
 
-@Test(priority = 222, enabled = true)
+@Test(priority = 240, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with daily Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -433,7 +526,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_ga
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Daily(10day)", "size",true);
 }
 
-@Test(priority = 224, enabled = true)
+@Test(priority = 242, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Daily Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -449,7 +542,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_deta
 
 
 
-@Test(priority = 226, enabled = true)
+@Test(priority = 246, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with Today Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -462,7 +555,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gam
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
 }
 
-@Test(priority = 228, enabled = true)
+@Test(priority = 248, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with Today Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -475,7 +568,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_ga
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
 }
 
-@Test(priority = 230, enabled = true)
+@Test(priority = 250, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Today Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -490,7 +583,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_deta
 
 
 
-@Test(priority = 232, enabled = true)
+@Test(priority = 252, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with AQ Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -502,7 +595,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
 }
 
-@Test(priority = 234, enabled = true)
+@Test(priority = 254, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with AQ Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -514,7 +607,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampa
 Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
 }
 
-@Test(priority = 236, enabled = true)
+@Test(priority = 256, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with AQ Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -529,7 +622,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details
 }
 
 
-	@Test(priority = 238, enabled = true)
+	@Test(priority = 258, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -542,7 +635,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_detai
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
 }
 
-@Test(priority = 240, enabled = true)
+@Test(priority = 260, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -555,7 +648,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_deta
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
 }
 
-@Test(priority = 242, enabled = true)
+@Test(priority = 262, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call()
 		throws Exception {
@@ -571,7 +664,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHu
 
 
 
-@Test(priority = 244, enabled = true)
+@Test(priority = 264, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -584,7 +677,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_deta
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","cpm", true);
 }
 
-@Test(priority = 246, enabled = true)
+@Test(priority = 268, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call()
 		throws Exception {
@@ -598,7 +691,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_det
 Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","size", true);
 }
 
-@Test(priority = 248, enabled = true)
+@Test(priority = 270, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call()
 		throws Exception {
@@ -614,7 +707,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBea
 
 
 
-@Test(priority = 250, enabled = true)
+@Test(priority = 272, enabled = true)
 @Description("Verify cpm parameter of Criteo SDK inapp v2 call with Running Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -627,7 +720,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_g
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
 }
 
-@Test(priority = 252, enabled = true)
+@Test(priority = 274, enabled = true)
 @Description("Verify size parameter of Criteo SDK inapp v2 call with Running Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call() throws Exception {
 	System.out.println("==============================================");
@@ -640,7 +733,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_
 	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
 }
 
-@Test(priority = 254, enabled = true)
+@Test(priority = 278, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Running Details call")
 public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call()
 		throws Exception {
