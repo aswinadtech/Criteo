@@ -101,6 +101,19 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.4.0");
 
 	}
+	
+		@Test(priority = 169, enabled = true)
+	@Description("Verify cpm parameter of Criteo SDK inapp v2 call with homescreen hourly call")
+	public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_homescreen_hourly_gampad_call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK invapp v2 call cpm parameter with homescreen hourly call====================");
+
+		System.out.println(
+				"****** Criteo SDK invapp v2 call cpm parameter with homescreen hourly call validation Started");
+		logStep("****** Criteo SDK invapp v2 call cpm parameter with homescreen hourly call validation Started");
+		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Pulltorefresh", "cpm",true);
+	}
 
 	@Test(priority = 170, enabled = true)
 	@Description("Verify size parameter of Criteo SDK inapp v2 call with homescreen hourly call")
