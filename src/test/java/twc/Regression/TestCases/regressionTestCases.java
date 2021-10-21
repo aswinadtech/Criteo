@@ -55,18 +55,6 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 	}
 
-	@Test(priority = 0, enabled = true)
-	@Description("Verify homescreen hourly ad call amazon bid id")
-	public void Verify_homescreen_hourly_ad_call_amazon_bid_id() throws Exception {
-		System.out.println("==============================================");
-		System.out.println("=========================== homescreen hourly ad call amazon bid id ====================");
-
-		System.out.println("****** homescreen hourly ad call amazon bid id validation Started");
-		logStep("****** homescreen hourly ad call amazon bid id validation Started");
-		CharlesFunctions.createXMLFileForCharlesSessionFile();
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Pulltorefresh", true);
-		//Functions.verifyAAX_SlotId("Pulltorefresh");
-	}
 	
 	
 	@Test(priority = 1, enabled = true)
