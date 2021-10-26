@@ -105,6 +105,17 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 	}
 	
 	
+	@Test(priority = 21, enabled = true)
+	@Description("Verify Feed5 ad call amazon bid id")
+	public void Verify_Feed5_ad_call_amazon_bid_id() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("=========================== Feed5 ad call amazon bid id ====================");
+
+		System.out.println("****** Feed5 ad call amazon bid id validation Started");
+		logStep("****** Feed5 ad call amazon bid id validation Started");
+		Functions.validate_aax_bid_value_with_gampad_bid_value("Feed5", true);
+	}
+	
 	
 	
 	@Test(priority = 5, enabled = true)
@@ -261,7 +272,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 	
 
 
-	@Test(priority = 21, enabled = true)
+	@Test(priority = 22, enabled = true)
 	@Description("Verify Health Running Details ad call amazon bid id")
 	public void Verify_Health_Running_Details_ad_call_amazon_bid_id() throws Exception {
 		System.out.println("==============================================");
