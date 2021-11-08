@@ -327,7 +327,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("==============================================");
 		System.out.println("****** Validating 'cpId' parameter of Criteo SDK config app call");
 		logStep("****** Validating 'cpId' parameter of Criteo SDK config app call");
-		Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "cpId", "B-051673");
+		//Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "cpId", "B-051673");
 
 	}
 	@Test(priority = 166, enabled = true)
@@ -336,7 +336,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("==============================================");
 		System.out.println("****** Validating 'bundleId' parameter of Criteo SDK config app call");
 		logStep("****** Validating 'bundleId' parameter of Criteo SDK config app call");
-		Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "bundleId", "com.weather.Weather");
+		//Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "bundleId", "com.weather.Weather");
 
 	}
 	
@@ -346,7 +346,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("==============================================");
 		System.out.println("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
 		logStep("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
-		Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.4.0");
+		//Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.4.0");
 
 	}
 	
@@ -408,7 +408,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed1 validation Started");
 		logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed1 call validation Started");
 
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "cpm", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "cpm", true);
 	}
 
 	@Test(priority = 176, enabled = true)
@@ -420,7 +420,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed1 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call size parameter with Feed1 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "size", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "size", true);
 	}
 
 	@Test(priority = 178, enabled = true)
@@ -432,7 +432,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed1 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed1 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "displayUrl",true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "displayUrl",true);
 	}
 	
 	
@@ -449,7 +449,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed2 validation Started");
 		logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed2 call validation Started");
 
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "cpm", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "cpm", true);
 	}
 
 	@Test(priority = 182, enabled = true)
@@ -461,7 +461,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed2 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call size parameter with Feed2 call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "size", true);
 	}
 
 	@Test(priority = 184, enabled = true)
@@ -473,7 +473,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed2 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed2 call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "displayUrl",true);
 	}
 	
 	
@@ -487,7 +487,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed3 validation Started");
 		logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed3 call validation Started");
 
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "cpm", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "cpm", true);
 	}
 
 	@Test(priority = 188, enabled = true)
@@ -499,7 +499,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed3 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call size parameter with Feed3 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "size", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "size", true);
 	}
 
 	@Test(priority = 190, enabled = true)
@@ -512,7 +512,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed3 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed3 call validation Started");
 		
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "displayUrl",true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "displayUrl",true);
 	}
 
 	
@@ -528,7 +528,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed4 validation Started");
 		logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed4 call validation Started");
 
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed4", "cpm", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed4", "cpm", true);
 	}
 
 	@Test(priority = 194, enabled = true)
@@ -540,7 +540,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed4 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call size parameter with Feed4 call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "size", true);
 	}
 
 	@Test(priority = 196, enabled = true)
@@ -552,7 +552,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed4 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed4 call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "displayUrl",true);
 	}
 	
 	
@@ -567,7 +567,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed5 validation Started");
 		logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed5 call validation Started");
 
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "cpm", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "cpm", true);
 	}
 
 	@Test(priority = 200, enabled = true)
@@ -579,7 +579,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed5 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call size parameter with Feed5 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "size", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "size", true);
 	}
 
 	@Test(priority = 202, enabled = true)
@@ -591,7 +591,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed5 call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed5 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed5", "displayUrl",true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed5", "displayUrl",true);
 	}
 	
 	
@@ -634,7 +634,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_g
 
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly1 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly1 Details validation Started");
-    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "cpm", true);
+    //Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "cpm", true);
 }
 
 @Test(priority = 216, enabled = true)
@@ -645,7 +645,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly1 Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "size", true);
 }
 @Test(priority = 218, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly1 Details call")
@@ -655,7 +655,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_de
 	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly1 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly1 Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly1", "displayUrl",true);
 }
 
 										
@@ -666,7 +666,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_g
 
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
-    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "cpm", true);
+   // Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "cpm", true);
 }
 
 @Test(priority = 222, enabled = true)
@@ -677,7 +677,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "size", true);
 }
 @Test(priority = 224, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
@@ -687,7 +687,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_de
 	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "displayUrl",true);
 }
 										
 										
@@ -698,7 +698,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_g
 
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
-    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "cpm", true);
+    //Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "cpm", true);
 }
 
 @Test(priority = 228, enabled = true)
@@ -709,7 +709,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "size", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "size", true);
 }
 @Test(priority = 230, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
@@ -719,7 +719,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_de
 	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "displayUrl",true);
 }
 
 
@@ -784,7 +784,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_ga
 	System.out
 			.println("****** Criteo SDK invapp v2 call size parameter with Daily details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with Daily details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Daily(10day)", "size",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Daily(10day)", "size",true);
 }
 
 @Test(priority = 242, enabled = true)
@@ -797,7 +797,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_deta
 	System.out.println(
 			"****** Criteo SDK invapp v2 call displayUrl parameter with Daily details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Daily details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Daily(10day)","displayUrl", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Daily(10day)","displayUrl", true);
 }
 
 
@@ -881,7 +881,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_detai
 	System.out.println(
 			"****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
 }
 
 @Test(priority = 260, enabled = true)
@@ -894,7 +894,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_deta
 	System.out.println(
 			"****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
 }
 
 @Test(priority = 262, enabled = true)
@@ -908,7 +908,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHu
 	System.out.println(
 			"****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","displayUrl", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","displayUrl", true);
 }
 
 
@@ -923,7 +923,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_deta
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of boatAndBeach Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of boatAndBeach Details validation Started");
 
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","cpm", true);
 }
 
 @Test(priority = 268, enabled = true)
@@ -937,7 +937,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_det
 	System.out.println(
 			"****** Criteo SDK invapp v2 call size parameter with boatAndBeach Details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with boatAndBeach Details call validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","size", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","size", true);
 }
 
 @Test(priority = 270, enabled = true)
@@ -951,7 +951,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBea
 	System.out.println(
 			"****** Criteo SDK invapp v2 call displayUrl parameter with boatAndBeach Details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with boatAndBeach Details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(boatAndBeach)","displayUrl", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(boatAndBeach)","displayUrl", true);
 }
 
 
@@ -966,7 +966,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_g
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
 }
 
 @Test(priority = 274, enabled = true)
@@ -979,7 +979,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_
 	System.out.println(
 			"****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
 }
 
 @Test(priority = 278, enabled = true)
@@ -993,7 +993,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_de
 	System.out.println(
 			"****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
 
 }
 	
