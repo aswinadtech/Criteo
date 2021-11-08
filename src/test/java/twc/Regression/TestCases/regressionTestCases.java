@@ -620,19 +620,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampa
 //Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
 }
 
-@Test(priority = 256, enabled = true)
-@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with AQ Details call")
-public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call() throws Exception {
-	System.out.println("==============================================");
-	System.out.println(
-			"=========================== Criteo SDK invapp v2 call displayUrl parameter with aq details call====================");
 
-	System.out.println(
-			"****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
-	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
-		CharlesFunctions.archive_folder("Charles");
-	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
-}
 
 
 	@Test(priority = 258, enabled = true)
