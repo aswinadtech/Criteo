@@ -355,7 +355,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_ga
 
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly Details validation Started");
-    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "cpm", true);
+   // Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "cpm", true);
 }
 
 @Test(priority = 210, enabled = true)
@@ -366,7 +366,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_g
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Hourly Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "size", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "size", true);
 }
 @Test(priority = 212, enabled = true)
 @Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly Details call")
@@ -376,7 +376,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_det
 	System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly Details validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly", "displayUrl",true);
 }
 
 
@@ -484,7 +484,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampa
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Map Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter of Map Details validation Started");
 
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Map", "cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Map", "cpm", true);
 }
 
 
@@ -496,7 +496,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gamp
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter of Map Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter of Map Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Map", "size", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Map", "size", true);
 }
 
 
@@ -509,7 +509,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_detail
 
 	System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Map Details validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Map Details validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Map", "displayUrl", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Map", "displayUrl", true);
 }
 
 
@@ -578,7 +578,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_ga
 	System.out
 			.println("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
 }
 
 @Test(priority = 250, enabled = true)
@@ -591,7 +591,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_deta
 	System.out.println(
 			"****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
 }
 
 
@@ -605,7 +605,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad
 
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
 }
 
 @Test(priority = 254, enabled = true)
@@ -617,7 +617,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampa
 
 	System.out.println("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
-Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
+//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
 }
 
 @Test(priority = 256, enabled = true)
@@ -631,7 +631,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details
 			"****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 		CharlesFunctions.archive_folder("Charles");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
 }
 
 
@@ -645,7 +645,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_detai
 	System.out.println(
 			"****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
 }
 
 @Test(priority = 260, enabled = true)
