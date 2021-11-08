@@ -50,7 +50,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("==============================================");
 		System.out.println("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
 		logStep("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
-		CharlesFunctions.createXMLFileForCharlesSessionFile();
+		//CharlesFunctions.createXMLFileForCharlesSessionFile();
 		//Functions.validate_Amazon_aax_call_parameter("Amazon", "adsdk","aps-android-9.1.0");
 
 	}
@@ -65,7 +65,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Feed1 ad call amazon bid id validation Started");
 		logStep("****** Feed1 ad call amazon bid id validation Started");
-	  Functions.validate_aax_bid_value_with_gampad_bid_value("Feed1", true);
+	 // Functions.validate_aax_bid_value_with_gampad_bid_value("Feed1", true);
 		//Functions.verifyAAX_SlotId("Feed1");
 	}
 	
@@ -281,7 +281,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Health Running Details ad call amazon bid id validation Started");
 		logStep("****** Health Running Details ad call amazon bid id validation Started");
-		CharlesFunctions.archive_folder("Charles");
+		//CharlesFunctions.archive_folder("Charles");
 		//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
 		Thread.sleep(100000);
 	}
@@ -296,8 +296,8 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK config/app call validation Started");
 		logStep("****** Criteo SDK config/app call validation Started");
 
-		CharlesFunctions.createXMLFileForCharlesSessionFile();
-	Functions.verifyCriteo_config_app_Call("Criteo");
+		//CharlesFunctions.createXMLFileForCharlesSessionFile();
+	//Functions.verifyCriteo_config_app_Call("Criteo");
 
 	//Functions.verifyCriteo_config_app_Call("Criteo", false);
 	}
@@ -313,7 +313,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 		logStep("****** Criteo SDK inapp/v2 call validation Started");
 
-	Functions.verifyCriteo_inapp_v2_Call("Criteo");
+	//Functions.verifyCriteo_inapp_v2_Call("Criteo");
 	//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 	}
