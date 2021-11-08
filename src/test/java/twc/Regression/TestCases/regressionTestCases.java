@@ -565,7 +565,7 @@ public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gam
 	System.out.println("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
 	logStep("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
 
-	Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
+	//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
 }
 
 @Test(priority = 248, enabled = true)
