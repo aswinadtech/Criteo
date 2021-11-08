@@ -51,7 +51,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
 		logStep("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
 		CharlesFunctions.createXMLFileForCharlesSessionFile();
-		Functions.validate_Amazon_aax_call_parameter("Amazon", "adsdk","aps-android-9.1.0");
+		//Functions.validate_Amazon_aax_call_parameter("Amazon", "adsdk","aps-android-9.1.0");
 
 	}
 
@@ -78,7 +78,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 		System.out.println("=========================== Feed2 ad call amazon bid id ====================");
 		System.out.println("****** Feed2 ad call amazon bid id validation Started");
 		logStep("****** Feed2 ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Feed2", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Feed2", true);
 	}
 	
 	@Test(priority = 3, enabled = true)
@@ -89,7 +89,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Feed3 ad call amazon bid id validation Started");
 		logStep("****** Feed3 ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value( "Feed3", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value( "Feed3", true);
 	}
 	
 	
@@ -101,7 +101,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Feed4 ad call amazon bid id validation Started");
 		logStep("****** Feed4 ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Feed4", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Feed4", true);
 	}
 	
 	
@@ -126,7 +126,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Hourly Details ad call amazon bid id validation Started");
 		logStep("****** Hourly Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly", true);
 	}
 	
 	
@@ -140,7 +140,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Hourly1 Details ad call amazon bid id validation Started");
 		logStep("****** Hourly1 Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly1", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly1", true);
 	}
 	
 	
@@ -152,7 +152,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Hourly2 Details ad call amazon bid id validation Started");
 		logStep("****** Hourly2 Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly2", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly2", true);
 	}
 	
 	@Test(priority = 9, enabled = true)
@@ -163,7 +163,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Hourly1 Details ad call amazon bid id validation Started");
 		logStep("****** Hourly3 Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly3", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly3", true);
 	}
 	
 	
@@ -177,7 +177,7 @@ public class regressionTestCases extends TwcAndroidBaseTest {
 
 		System.out.println("****** Daily Details ad call amazon bid id validation Started");
 		logStep("****** Daily Details ad call amazon bid id validation Started");
-Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
+//Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 	}
 	
 	
@@ -191,7 +191,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 
 		System.out.println("****** Map Details ad call amazon bid id validation Started");
 		logStep("****** Map Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Map", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Map", true);
 	}
 	
 	
@@ -206,7 +206,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 
 		System.out.println("****** Today Details ad call amazon bid id validation Started");
 		logStep("****** Today Details ad call amazon bid id validation Started");
-	Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
+	//Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
 	}
 	
 	
@@ -219,7 +219,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 
 		System.out.println("****** AQ Details ad call amazon bid id validation Started");
 		logStep("****** AQ Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Air Quality(Content)", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Air Quality(Content)", true);
 	}
 	
 	
@@ -235,7 +235,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 
 		System.out.println("****** AlertCenter ad call amazon bid id validation Started");
 		logStep("****** AlertCenter ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
 
 	}
 	
@@ -253,7 +253,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 
 		System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
 		logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
 	}
 
 		@Test(priority = 20, enabled = true)
@@ -282,7 +282,7 @@ Functions.validate_aax_bid_value_with_gampad_bid_value("Daily(10day)", true);
 		System.out.println("****** Health Running Details ad call amazon bid id validation Started");
 		logStep("****** Health Running Details ad call amazon bid id validation Started");
 		CharlesFunctions.archive_folder("Charles");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
 		Thread.sleep(100000);
 	}
 	
