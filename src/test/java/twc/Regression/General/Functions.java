@@ -6418,6 +6418,97 @@ public static void verifyAAX_SlotId(String sheetName) throws Exception {
 	}
 
 }
+	
+	
+	public static void verifyAAX_SlotId(String excelName, String sheetName) throws Exception {
+	String[][] data = read_excel_data.exceldataread(sheetName);
+
+// Read the content form file
+File fXmlFile = new File(CharlesFunctions.outfile.getName());
+
+DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+dbFactory.setValidating(false);
+dbFactory.setNamespaceAware(true);
+dbFactory.setFeature("http://xml.org/sax/features/namespaces", false);
+dbFactory.setFeature("http://xml.org/sax/features/validation", false);
+dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+
+DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+
+Document doc = dBuilder.parse(fXmlFile);
+// Getting the transaction element by passing xpath expression
+NodeList nodeList = doc.getElementsByTagName("transaction");
+
+// Read JSONs and get b value
+// List<String> jsonBValuesList = new ArrayList<String>();
+
+// String slotId = "153f5936-781f-4586-8fdb-040ce298944a";
+
+// String slotId = "c4dd8ec4-e40c-4a63-ae81-8f756793ac5e";
+String slotId = data[12][1];
+
+boolean flag = false;
+// List<String> istofRequestBodies = new ArrayList<String>();
+// List<String> istofResponseBodies = new ArrayList<String>();
+// List<String> listOf_b_Params = new ArrayList<String>();
+
+nodeList: for (int i = 0; i < nodeList.getLength(); i++) {
+if (nodeList.item(i) instanceof Node) {
+	Node node = nodeList.item(i);
+	if (node.hasChildNodes()) {
+		NodeList nl = node.getChildNodes();
+		NodeList: for (int j = 0; j < nl.getLength(); j++) {
+			Node innernode = nl.item(j);
+			if (innernode != null) {
+				if (innernode.getNodeName().equals("request")) {
+					if (innernode.hasChildNodes()) {
+						NodeList n2 = innernode.getChildNodes();
+						for (int k = 0; k < n2.getLength(); k++) {
+							Node innernode2 = n2.item(k);
+							if (innernode2 != null) {
+								if (innernode2.getNodeType() == Node.ELEMENT_NODE) {
+									Element eElement = (Element) innernode2;
+									if (eElement.getNodeName().equals("body")) {
+										String content = eElement.getTextContent();
+										if (content.contains(slotId)) {
+											flag = true;
+											// istofRequestBodies.add(content);
+
+											break nodeList;
+
+											// System.out.println("request body "+content);
+										}
+									}
+								}
+							}
+						}
+
+					}
+				}
+
+			}
+		}
+
+	}
+}
+
+}
+if (flag) {
+System.out.println("slot id: " + slotId + " is present");
+logStep("slot id: " + slotId + " is present");
+System.out.println(sheetName + " : AAX slot id Verification is successful");
+logStep(sheetName + " : AAX slot id Verification is successful");
+
+} else {
+System.out.println("slot id: " + slotId + " is not present");
+logStep("slot id: " + slotId + " is not present");
+System.out.println(sheetName + " :AAX slot id Verification is failed");
+logStep(sheetName + " :AAX slot id Verification is failed");
+Assert.fail("slot id: " + slotId + " is not present");
+}
+
+}
 
 //this retrives amazon bid values from aax calls and gampad calls of
 	// correponding add calls and verifies any one matching.
